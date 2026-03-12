@@ -8,13 +8,13 @@ import mountain_background from '../public/mountain_background.png';
 export default function Home() {
   return (
     <div className="container">
-      <Image
-        src={mountain_background}
-        alt="Mountain range background image"
-        priority
-        fill
-        className="bg-mountain"/>
       <div className="content-container">
+        <Image
+          src={mountain_background}
+          alt="Mountain range background image"
+          priority
+          fill
+          className="bg-mountain"/>
         <div className="content-left">
           <div className="title">
             <h1>TAG</h1>
