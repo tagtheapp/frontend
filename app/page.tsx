@@ -21,7 +21,7 @@ export default function Home() {
             <h3>You're It!</h3>
           </div>
           <div>
-            <p className="description">Bring back the thrill of playground tag,<br />now across your whole campus, with<br />live maps, groups, and real-time hunts</p>
+            <p className="description">Bring back the thrill of playground tag across<br />your town, campus, or city, with live maps,<br />groups, and real-time hunts</p>
           </div>
           <div className="download-links">
             <DownloadButton imageURL={"/Apple_logo_white.png"} downloadText={"DOWNLOAD ON THE"} downloadService={"App Store"} />
