@@ -1,6 +1,8 @@
 import Image from "next/image";
 import "./page.css";
 import logo from '../public/tag_logo_1024.png';
+import Apple_logo from '../public/Apple_logo_white.png';
+import Google_Play_logo from '../public/Google_Play_logo.png';
 
 export default function Home() {
   return (
@@ -13,6 +15,26 @@ export default function Home() {
           </div>
           <div>
             <p className="description">Bring back the thrill of playground tag,<br />now across your whole campus, with<br />live maps, groups, and real-time hunts</p>
+          </div>
+          <div className="download-links">
+            <a href="">
+              <div className="download-link">
+                <Image src={Apple_logo} alt="Apple logo" className="download-img"/>
+                <div className="download-info">
+                  <p className="download-text">DOWNLOAD ON THE</p>
+                  <p className="download-text white">App Store</p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div className="download-link">
+                <Image src={Google_Play_logo} alt="Google Play logo" className="download-img"/>
+                <div className="download-info">
+                  <p className="download-text">GET IT ON</p>
+                  <p className="download-text white">Google Play</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div className="content-right">

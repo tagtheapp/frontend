@@ -82,6 +82,43 @@ a {
     color: white;
 }
 
+.download-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.download-link {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+.download-img {
+    max-width: 25px;
+    height: auto;
+    display: block;
+    margin: 1rem;
+}
+
+.download-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.download-text {
+    margin: 0px;
+    color: #BFBFBF;
+    font-weight: 700;
+}
+
+.white {
+    color: white;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
