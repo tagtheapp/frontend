@@ -1,0 +1,38 @@
+.download-link {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.download-img {
+    max-width: 25px;
+    height: auto;
+    display: block;
+    margin: 1rem;
+    width: auto;
+    height: 100%;
+}
+
+.download-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.download-text {
+    margin: 0px;
+    color: #BFBFBF;
+    font-weight: 700;
+}
+
+.white {
+    color: white;
+}
+
+@media screen and (max-width: 1052px) {
+    .download-links {
+        flex-direction: column;
+    }
+}
