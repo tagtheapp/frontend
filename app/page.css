@@ -170,7 +170,7 @@ a {
     margin-left: 2rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1052px) {
     :root {
         --spacing: 2rem;
     }
