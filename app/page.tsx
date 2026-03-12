@@ -3,10 +3,17 @@ import "./page.css";
 import logo from '../public/tag_logo_1024.png';
 import Apple_logo from '../public/Apple_logo_white.png';
 import Google_Play_logo from '../public/Google_Play_logo.png';
+import mountain_background from '../public/mountain_background.png';
 
 export default function Home() {
   return (
     <div className="container">
+      <Image
+        src={mountain_background}
+        alt="Mountain range background image"
+        priority
+        fill
+        className="bg-mountain"/>
       <div className="content-container">
         <div className="content-left">
           <div className="title">
