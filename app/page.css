@@ -77,16 +77,8 @@ a {
     margin-top: auto;
     width: 300px;
     height: 300px;
-    transform: rotate(-3deg);
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.3));
-    transition: transform 0.2s ease-out, filter 0.2s ease-out;
-    will-change: transform, filter; 
-    transform: translateZ(0) rotate(-3deg);
-}
-
-.content-logo:hover {
-    transform: rotate(-7deg);
-    transition: transform 0.2s ease-out, filter 0.2s ease-out;
+    will-change: filter; 
 }
 
 .title {

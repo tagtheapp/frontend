@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./download-button.css";
+import { motion } from "motion/react";
 
 interface DownloadButtonProps {
   imageURL: string,
@@ -10,7 +11,12 @@ interface DownloadButtonProps {
 const DownloadButton = (props: DownloadButtonProps) => {
   return (
     <a href="">
-      <div className="download-link">
+      <motion.div
+        className="download-link"
+        initial={{ scale: 1 }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 1.05 }}
+      >
         <Image
           src={props.imageURL}
           alt={`${props.downloadService} logo`}
@@ -21,7 +27,7 @@ const DownloadButton = (props: DownloadButtonProps) => {
           <p className="download-text">{props.downloadText}</p>
           <p className="download-text white">{props.downloadService}</p>
         </div>
-      </div>
+      </motion.div>
     </a>
   )
 };
